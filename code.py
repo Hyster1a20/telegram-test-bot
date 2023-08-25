@@ -6,4 +6,4 @@ bot = telebot.TeleBot(tk)
 
 @bot.message_handler(commands=['start', 'alo'])
 def send_welcome(message):
-    bot.reply_to(message, "hector salamanca beesh")
+    bot.reply_to(message, "u're in! ")
